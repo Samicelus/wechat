@@ -3,6 +3,11 @@ wechat
 
 微信公共平台自动回复消息接口服务中间件
 
+forked from https://github.com/node-webot/wechat.git
+
+修改：wechat.prototype.middlewarify(config, fn);
+替换掉其中的config参数，使用时，需要用前置中间件把原方法中传入的config放入req.config中，使用wechat(config, fn)时，config不起作用
+
 [Wechat document in English](./README.en.md)
 
 ## 模块状态

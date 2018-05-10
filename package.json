@@ -1,5 +1,5 @@
 {
-  "name": "wechat",
+  "name": "wechat-samicelus",
   "version": "2.1.0",
   "description": "微信公共平台Node库",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-webot/wechat.git"
+    "url": "git://github.com/Samicelus/wechat.git"
   },
   "keywords": [
     "weixin",
@@ -32,7 +32,7 @@
     "rewire": "*",
     "istanbul": "*"
   },
-  "author": "Jackson Tian",
+  "author": "Samicelus",
   "license": "MIT",
   "readmeFilename": "README.md",
   "directories": {
